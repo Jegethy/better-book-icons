@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configs>
+
+	<!-- Changes the icon shown on perk books -->
+
+	<set xpath="/items/item[@name='schematicMaster']/property[@name='ItemTypeIcon']/@value">unreadbook</set>
+	<set xpath="/items/item[@name='schematicMaster']/property[@name='AltItemTypeIcon']/@value">readbook</set>
+
+</configs>
